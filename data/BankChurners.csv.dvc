@@ -1,0 +1,5 @@
+outs:
+- md5: 9f990cc4caeefdbd5029c6d113bc8df5
+  size: 1521008
+  hash: md5
+  path: BankChurners.csv
