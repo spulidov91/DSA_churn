@@ -1,4 +1,0 @@
-[core]
-    remote = fuentelocal
-['remote "fuentelocal"']
-    url = C:/Users/dapen/AppData/Local/Temp/dvcstore
