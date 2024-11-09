@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/a49fd6e9944b4c47979c73acdf564fb4/artifacts
+deleted_time: 1731179608704
+end_time: 1731179519368
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: a49fd6e9944b4c47979c73acdf564fb4
+run_name: gregarious-koi-241
+run_uuid: a49fd6e9944b4c47979c73acdf564fb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179515211
+status: 3
+tags: []
+user_id: dapen

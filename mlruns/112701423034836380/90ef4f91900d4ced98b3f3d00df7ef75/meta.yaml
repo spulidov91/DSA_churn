@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/90ef4f91900d4ced98b3f3d00df7ef75/artifacts
+deleted_time: 1731179557549
+end_time: 1731179259420
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: 90ef4f91900d4ced98b3f3d00df7ef75
+run_name: youthful-shoat-434
+run_uuid: 90ef4f91900d4ced98b3f3d00df7ef75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179259390
+status: 4
+tags: []
+user_id: dapen

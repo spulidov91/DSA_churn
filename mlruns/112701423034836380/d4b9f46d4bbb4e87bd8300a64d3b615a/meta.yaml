@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/d4b9f46d4bbb4e87bd8300a64d3b615a/artifacts
+deleted_time: 1731180369417
+end_time: 1731179683996
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: d4b9f46d4bbb4e87bd8300a64d3b615a
+run_name: skittish-carp-63
+run_uuid: d4b9f46d4bbb4e87bd8300a64d3b615a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179680952
+status: 3
+tags: []
+user_id: dapen

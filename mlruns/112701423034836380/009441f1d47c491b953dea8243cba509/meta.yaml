@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/009441f1d47c491b953dea8243cba509/artifacts
+deleted_time: 1731180369378
+end_time: 1731179693606
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: 009441f1d47c491b953dea8243cba509
+run_name: shivering-calf-172
+run_uuid: 009441f1d47c491b953dea8243cba509
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179690339
+status: 3
+tags: []
+user_id: dapen

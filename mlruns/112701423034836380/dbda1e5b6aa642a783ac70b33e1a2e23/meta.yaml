@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/dbda1e5b6aa642a783ac70b33e1a2e23/artifacts
+deleted_time: 1731179608777
+end_time: 1731179481517
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: dbda1e5b6aa642a783ac70b33e1a2e23
+run_name: welcoming-wasp-301
+run_uuid: dbda1e5b6aa642a783ac70b33e1a2e23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179476155
+status: 3
+tags: []
+user_id: dapen

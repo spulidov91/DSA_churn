@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/e94031f3a25a4a28aa8fd603e1ef00d0/artifacts
+deleted_time: 1731179604450
+end_time: 1731179518747
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: e94031f3a25a4a28aa8fd603e1ef00d0
+run_name: polite-kite-934
+run_uuid: e94031f3a25a4a28aa8fd603e1ef00d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179473440
+status: 3
+tags: []
+user_id: dapen

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/502eb3a22eab49a68574c538cc294db2/artifacts
+deleted_time: 1731179608703
+end_time: 1731179515164
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: 502eb3a22eab49a68574c538cc294db2
+run_name: respected-carp-522
+run_uuid: 502eb3a22eab49a68574c538cc294db2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179510956
+status: 3
+tags: []
+user_id: dapen

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/83b6b587524b4299aeb535e1484b1cbd/artifacts
+deleted_time: 1731180369421
+end_time: 1731179680905
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: 83b6b587524b4299aeb535e1484b1cbd
+run_name: glamorous-snipe-727
+run_uuid: 83b6b587524b4299aeb535e1484b1cbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179675742
+status: 3
+tags: []
+user_id: dapen

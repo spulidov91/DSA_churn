@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/af916bde88d04c87a41ef5f5b23caf92/artifacts
+deleted_time: 1731179608780
+end_time: 1731179481033
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: af916bde88d04c87a41ef5f5b23caf92
+run_name: charming-wolf-888
+run_uuid: af916bde88d04c87a41ef5f5b23caf92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179473531
+status: 3
+tags: []
+user_id: dapen

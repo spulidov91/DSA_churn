@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/6cd25946b536463987e10697f9c39465/artifacts
+deleted_time: 1731180369380
+end_time: 1731179687201
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: 6cd25946b536463987e10697f9c39465
+run_name: nebulous-worm-137
+run_uuid: 6cd25946b536463987e10697f9c39465
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179684027
+status: 3
+tags: []
+user_id: dapen

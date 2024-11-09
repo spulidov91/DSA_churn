@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/ae664bbc87114429a2316f9294e7ec75/artifacts
+deleted_time: 1731179608746
+end_time: 1731179502213
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: ae664bbc87114429a2316f9294e7ec75
+run_name: auspicious-carp-20
+run_uuid: ae664bbc87114429a2316f9294e7ec75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179493924
+status: 3
+tags: []
+user_id: dapen

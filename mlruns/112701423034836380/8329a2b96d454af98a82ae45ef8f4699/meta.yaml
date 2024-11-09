@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/8329a2b96d454af98a82ae45ef8f4699/artifacts
+deleted_time: 1731179608760
+end_time: 1731179493865
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: 8329a2b96d454af98a82ae45ef8f4699
+run_name: rambunctious-pig-472
+run_uuid: 8329a2b96d454af98a82ae45ef8f4699
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179489773
+status: 3
+tags: []
+user_id: dapen

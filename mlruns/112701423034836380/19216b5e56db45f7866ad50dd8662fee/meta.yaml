@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/19216b5e56db45f7866ad50dd8662fee/artifacts
+deleted_time: 1731179608725
+end_time: 1731179506048
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: 19216b5e56db45f7866ad50dd8662fee
+run_name: able-lamb-119
+run_uuid: 19216b5e56db45f7866ad50dd8662fee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179501891
+status: 3
+tags: []
+user_id: dapen

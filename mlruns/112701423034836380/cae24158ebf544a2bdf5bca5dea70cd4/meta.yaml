@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/cae24158ebf544a2bdf5bca5dea70cd4/artifacts
+deleted_time: 1731180369378
+end_time: 1731179693637
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: cae24158ebf544a2bdf5bca5dea70cd4
+run_name: salty-steed-380
+run_uuid: cae24158ebf544a2bdf5bca5dea70cd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179660968
+status: 3
+tags: []
+user_id: dapen

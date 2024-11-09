@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/71cc5c274a2642eba0d84dde0c99a1dc/artifacts
+end_time: 1731180551379
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: active
+run_id: 71cc5c274a2642eba0d84dde0c99a1dc
+run_name: beautiful-swan-552
+run_uuid: 71cc5c274a2642eba0d84dde0c99a1dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731180544325
+status: 3
+tags: []
+user_id: dapen

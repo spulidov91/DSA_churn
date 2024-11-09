@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/276fdb69769a42cc9c8e546b3dac64f6/artifacts
+deleted_time: 1731179608720
+end_time: 1731179510903
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: 276fdb69769a42cc9c8e546b3dac64f6
+run_name: mysterious-ox-499
+run_uuid: 276fdb69769a42cc9c8e546b3dac64f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179506900
+status: 3
+tags: []
+user_id: dapen

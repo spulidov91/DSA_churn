@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/45e7780c493d4f6fbe4db79bd0a7d8bb/artifacts
+deleted_time: 1731179608723
+end_time: 1731179510621
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: 45e7780c493d4f6fbe4db79bd0a7d8bb
+run_name: persistent-snake-723
+run_uuid: 45e7780c493d4f6fbe4db79bd0a7d8bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179506091
+status: 3
+tags: []
+user_id: dapen

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/f9bcecdf869b4f06b53818b15e9c04de/artifacts
+deleted_time: 1731180369380
+end_time: 1731179690307
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: f9bcecdf869b4f06b53818b15e9c04de
+run_name: smiling-gull-904
+run_uuid: f9bcecdf869b4f06b53818b15e9c04de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179687223
+status: 3
+tags: []
+user_id: dapen

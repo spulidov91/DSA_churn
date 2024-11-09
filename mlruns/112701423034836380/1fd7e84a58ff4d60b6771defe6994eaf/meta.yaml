@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/1fd7e84a58ff4d60b6771defe6994eaf/artifacts
+deleted_time: 1731179608747
+end_time: 1731179493377
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: 1fd7e84a58ff4d60b6771defe6994eaf
+run_name: popular-shoat-779
+run_uuid: 1fd7e84a58ff4d60b6771defe6994eaf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179489142
+status: 3
+tags: []
+user_id: dapen

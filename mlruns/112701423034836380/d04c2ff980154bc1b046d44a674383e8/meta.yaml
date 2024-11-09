@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/d04c2ff980154bc1b046d44a674383e8/artifacts
+deleted_time: 1731179608773
+end_time: 1731179489099
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: d04c2ff980154bc1b046d44a674383e8
+run_name: amazing-sponge-880
+run_uuid: d04c2ff980154bc1b046d44a674383e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179481064
+status: 3
+tags: []
+user_id: dapen

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/112701423034836380/dfd1aa08c96d48118c92d51a933ea664/artifacts
+deleted_time: 1731179608742
+end_time: 1731179501847
+entry_point_name: ''
+experiment_id: '112701423034836380'
+lifecycle_stage: deleted
+run_id: dfd1aa08c96d48118c92d51a933ea664
+run_name: rumbling-toad-37
+run_uuid: dfd1aa08c96d48118c92d51a933ea664
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179493422
+status: 3
+tags: []
+user_id: dapen
