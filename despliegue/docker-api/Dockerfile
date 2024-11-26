@@ -6,6 +6,9 @@ RUN adduser --disabled-password --gecos '' api-user
 # Definir directorio de trabajo 
 WORKDIR /opt/api
 
+# Copiar modelo
+ADD ./model /opt/api/model
+
 # Instalar dependencias
 ADD ./api /opt/api/
 RUN pip install --upgrade pip
