@@ -14,8 +14,8 @@ from app import __version__, schemas
 from app.config import settings
 
 api_router = APIRouter()
-modelo = joblib.load('/opt/api/model/modelo_gb.pkl')
-scaler = joblib.load('/opt/api/model/scaler.pkl')
+modelo = joblib.load('modelo_gb.pkl')
+scaler = joblib.load('scaler.pkl')
 
 
 def preprocess_data(data: pd.DataFrame) -> pd.DataFrame:
