@@ -1,0 +1,16 @@
+dash>=2.7,<3.0.0
+requests>=2.28.0,<3.0.0
+gunicorn>=21.2.0,<22.0.0
+python-multipart>=0.0.5,<0.1.0
+typing_extensions>=4.2.0,<5.0.0
+loguru>=0.5.3,<1.0.0
+pydantic>=1.10.0,<2.0.0
+scikit-learn==1.5.0
+streamlit==1.32.1
+pandas==2.2.2
+numpy==1.26.4
+plotly==5.9.0
+joblib==1.2.0
+missingno==0.5.2
+imbalanced-learn==0.12.4 
+imblearn==0.0
