@@ -27,7 +27,7 @@ class Settings(BaseSettings):
         "https://localhost:8000",  # type: ignore
     ]
 
-    PROJECT_NAME: str = "API Banco Churn para decersión de clientes"
+    PROJECT_NAME: str = "API Banco Churn para deserción de clientes"
 
     class Config:
         case_sensitive = True
