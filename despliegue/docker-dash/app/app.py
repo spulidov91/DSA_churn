@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import random
 import datetime
 import joblib
-from sklearn.preprocessing import StandardScaler
+import os
 
 df = pd.read_csv('scripts/BankChurners.csv')
 df.drop(columns = ['Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1', 
@@ -17,6 +17,9 @@ cat_col = df.select_dtypes(include=['object', 'category']).columns
 cat_col = cat_col.drop('Attrition_Flag', errors= 'ignore')
 modelo = joblib.load('scripts/modelo_gb.pkl')
 scaler = joblib.load('scripts/scaler.pkl')
+
+api_url = os.getenv('API_URL')
+api_url = "http://{}:8001/api/v1/predict".format(api_url)
 
 def preprocess_data(data):
     data['Gender'] = data['Gender'].replace({'F': 1, 'M': 0})
@@ -233,32 +236,46 @@ def page_Prediction():
             submitted = st.form_submit_button("Predicción")
         
         if submitted:
-            data = pd.DataFrame({
-                "Customer_Age": [customer_age],
-                "Gender": [gender],
-                "Dependent_count": [dependent_count],
-                "Education_Level": [education_level],
-                "Marital_Status": [marital_status],
-                "Income_Category": [income_category],
-                "Card_Category": [card_category],
-                "Months_on_book": [months_on_book],
-                "Total_Relationship_Count": [total_relationship_count],
-                "Months_Inactive_12_mon": [months_inactive_12_mon],
-                "Contacts_Count_12_mon": [contacts_count_12_mon],
-                "Credit_Limit": [credit_limit],
-                "Total_Resolving_Bal": [total_resolving_bal],
-                "Avg_Open_To_Buy": [avg_open_to_buy],
-                "Total_Amt_Chng_Q4_Q1": [total_amt_chng_q4_q1],
-                "Total_Trans_Amt": [total_trans_amt],
-                "Total_Trans_Ct": [total_trans_ct],
-                "Total_Ct_Chng_Q4_Q1": [total_ct_chng_q4_q1],
-                "Avg_Utilization_Ratio": [avg_utilization_ratio]
-            })
+            # Crear la estructura JSON para la solicitud a la API
+            myreq = {
+                "inputs": [
+                    {
+                        "Customer_Age": customer_age,
+                        "Gender": gender,
+                        "Dependent_count": dependent_count,
+                        "Education_Level": education_level,
+                        "Marital_Status": marital_status,
+                        "Income_Category": income_category,
+                        "Card_Category": card_category,
+                        "Months_on_book": months_on_book,
+                        "Total_Relationship_Count": total_relationship_count,
+                        "Months_Inactive_12_mon": months_inactive_12_mon,
+                        "Contacts_Count_12_mon": contacts_count_12_mon,
+                        "Credit_Limit": credit_limit,
+                        "Total_Revolving_Bal": total_resolving_bal,
+                        "Avg_Open_To_Buy": avg_open_to_buy,
+                        "Total_Amt_Chng_Q4_Q1": total_amt_chng_q4_q1,
+                        "Total_Trans_Amt": total_trans_amt,
+                        "Total_Trans_Ct": total_trans_ct,
+                        "Total_Ct_Chng_Q4_Q1": total_ct_chng_q4_q1,
+                        "Avg_Utilization_Ratio": avg_utilization_ratio
+                    }
+                ]
+            }
 
-            data_preprocessed = preprocess_data(data)
-            prediccion = modelo.predict(data_preprocessed)
-            st.write(f"Predicción del modelo: {'Deserción' if prediccion[0] == 1 else 'No Deserción'}")
-    
+            headers = {"Content-Type": "application/json", "accept": "application/json"}
+
+            # Realizar la solicitud POST a la API
+            response = requests.post(api_url, data=json.dumps(myreq), headers=headers)
+
+            if response.status_code == 200:
+                data = response.json()
+                st.success("¡Predicción realizada con éxito!")
+                result = "ALTO riesgo de abandono" if round(data["predictions"][0]) == 1 else "BAJO riesgo de abandono"
+                st.write(f"Resultado: {result}")
+            else:
+                st.error(f"Error al realizar la predicción. Código de estado: {response.status_code}")
+                st.write(f"Mensaje: {response.text}")
 
     
 
