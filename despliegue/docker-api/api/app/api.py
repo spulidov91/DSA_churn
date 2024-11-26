@@ -14,8 +14,8 @@ from app import __version__, schemas
 from app.config import settings
 
 api_router = APIRouter()
-modelo = joblib.load('despliegue/docker-api/api/model/modelo_gb.pkl')
-scaler = joblib.load('despliegue/docker-api/api/model/scaler.pkl')
+modelo = joblib.load('api/model/modelo_gb.pkl')
+scaler = joblib.load('api/model/scaler.pkl')
 
 
 def preprocess_data(data: pd.DataFrame) -> pd.DataFrame:
