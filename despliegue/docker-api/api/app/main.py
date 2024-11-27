@@ -6,9 +6,6 @@ from fastapi.responses import HTMLResponse
 from loguru import logger
 import sys
 import os
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-
 from app.api import api_router
 from app.config import settings, setup_app_logging
 
