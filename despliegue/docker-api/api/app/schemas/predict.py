@@ -28,9 +28,7 @@ class DataInputSchema(BaseModel):
 
 # Esquema de los resultados de predicción
 class PredictionResults(BaseModel):
-    errors: Optional[Any]
-    version: str
-    predictions: Optional[List[float]]
+    predictions: List[int]
 
 # Esquema para inputs múltiples
 class MultipleDataInputs(BaseModel):
