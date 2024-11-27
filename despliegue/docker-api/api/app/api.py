@@ -70,7 +70,7 @@ async def predict(input_data: schemas.MultipleDataInputs) -> Any:
     logger.info(f"Making prediction on inputs: {input_data.inputs}")
     
     data_preprocessed = preprocess_data(input_df)
-    results = modelo.predict(input_data=data_preprocessed.replace({np.nan: None}))
+    results = modelo.predict(data_preprocessed.replace({np.nan: None}))
 
     if results["errors"] is not None:
         logger.warning(f"Prediction validation error: {results.get('errors')}")
