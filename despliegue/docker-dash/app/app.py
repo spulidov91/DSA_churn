@@ -7,6 +7,8 @@ import random
 import datetime
 import joblib
 import os
+import requests
+import json
 
 df = pd.read_csv('BankChurners.csv')
 df.drop(columns = ['Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1', 
@@ -15,8 +17,8 @@ num_col = df.select_dtypes(include=['int', 'double']).columns
 num_col = num_col.drop('CLIENTNUM', errors= 'ignore')
 cat_col = df.select_dtypes(include=['object', 'category']).columns
 cat_col = cat_col.drop('Attrition_Flag', errors= 'ignore')
-#modelo = joblib.load('scripts/modelo_gb.pkl')
-#scaler = joblib.load('scripts/scaler.pkl')
+modelo = joblib.load('modelo_gb.pkl')
+scaler = joblib.load('scaler.pkl')
 
 api_url = os.getenv('API_URL')
 api_url = "http://{}:8001/api/v1/predict".format(api_url)
