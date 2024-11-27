@@ -21,4 +21,4 @@ USER dash-user
 EXPOSE 8050
 
 # Comandos a ejecutar al correr el contenedor 
-CMD ["bash", "./run.sh"]
+CMD ["streamlit", "run", "app.py", "--server.port=8050", "--server.address=0.0.0.0"]
